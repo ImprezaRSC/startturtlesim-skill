@@ -12,7 +12,7 @@ class Startturtlesim(MycroftSkill):
     def handle_startturtlesim(self, message):
         self.speak_dialog('startturtlesim')
         s="rosrun turtlesim turtlesim_node"    
-        subprocess.call([s])
+        subprocess.call([s], shell=True)
 def create_skill():
     return Startturtlesim()
 
