@@ -6,13 +6,13 @@ class Startturtlesim(MycroftSkill):
     def __init__(self):
         MycroftSkill.__init__(self)
 
-        subprocess.call([s],shell=True)
+       
         
     @intent_file_handler('startturtlesim.intent')
     def handle_startturtlesim(self, message):
         self.speak_dialog('startturtlesim')
 
-
+        subprocess.call([s])
 def create_skill():
     return Startturtlesim()
 
