@@ -5,7 +5,9 @@ This skill starts the turtlesim node in ros
 See above
 
 ## Examples
- - "Turtle"
+- Turtle
+- Turtle Sim
+- turtlesim
 
 
 ## Credits
